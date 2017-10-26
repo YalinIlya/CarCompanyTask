@@ -1,0 +1,17 @@
+D:\Projects\EmvWebTerminal\WebTerminalClient\bin\Debug\WebTerminalClient.exe.config
+E:\Projects\EmvWebTerminal\WebTerminalClient\bin\Debug\WebTerminalClient.exe.config
+E:\Projects\EmvWebTerminal\WebTerminalClient\bin\Debug\WebTerminalClient.exe
+E:\Projects\EmvWebTerminal\WebTerminalClient\bin\Debug\WebTerminalClient.pdb
+E:\Projects\EmvWebTerminal\WebTerminalClient\obj\Debug\WebTerminalClient.csprojResolveAssemblyReference.cache
+E:\Projects\EmvWebTerminal\WebTerminalClient\obj\Debug\LogWindow.baml
+E:\Projects\EmvWebTerminal\WebTerminalClient\obj\Debug\MainWindow.baml
+E:\Projects\EmvWebTerminal\WebTerminalClient\obj\Debug\App.baml
+E:\Projects\EmvWebTerminal\WebTerminalClient\obj\Debug\LogWindow.g.cs
+E:\Projects\EmvWebTerminal\WebTerminalClient\obj\Debug\MainWindow.g.cs
+E:\Projects\EmvWebTerminal\WebTerminalClient\obj\Debug\App.g.cs
+E:\Projects\EmvWebTerminal\WebTerminalClient\obj\Debug\WebTerminalClient_MarkupCompile.cache
+E:\Projects\EmvWebTerminal\WebTerminalClient\obj\Debug\WebTerminalClient.g.resources
+E:\Projects\EmvWebTerminal\WebTerminalClient\obj\Debug\WebTerminalClient.Properties.Resources.resources
+E:\Projects\EmvWebTerminal\WebTerminalClient\obj\Debug\WebTerminalClient.csproj.GenerateResource.Cache
+E:\Projects\EmvWebTerminal\WebTerminalClient\obj\Debug\WebTerminalClient.exe
+E:\Projects\EmvWebTerminal\WebTerminalClient\obj\Debug\WebTerminalClient.pdb

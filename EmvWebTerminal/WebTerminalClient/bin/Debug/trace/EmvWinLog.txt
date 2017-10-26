@@ -1,0 +1,244 @@
+Application start
+Service ref = http://localhost:3885/EmvWebService.asmx
+Domain name = localhost
+
+Opening of USB reader: Athena ASEDrive IIIe USB 0
+
+OpenReader() ERROR!
+
+EmvStart Begin
+Call EmvStart OK
+SessionId = vlt5twbb01cd1j55k3e5rwui
+fAtr
+Atr = 3B620000811F
+Call Atr OK
+sApdu
+Apdu: 00A404000E315041592E5359532E4444463031
+Apdu result: 6A82
+Call Apdu OK
+EmvRes res = 0x55
+WaitCardOut
+EmvStart Begin
+Call EmvStart OK
+SessionId = vlt5twbb01cd1j55k3e5rwui
+fAtr
+Atr = 3B620000811F
+Call Atr OK
+sApdu
+Apdu: 00A404000E315041592E5359532E4444463031
+Apdu result: 6A82
+Call Apdu OK
+EmvRes res = 0x55
+WaitCardOut
+EmvStart Begin
+Call EmvStart OK
+SessionId = vlt5twbb01cd1j55k3e5rwui
+fAtr
+Atr = 3B620000811F
+Call Atr OK
+sApdu
+Apdu: 00A404000E315041592E5359532E4444463031
+Apdu result: 6A82
+Call Apdu OK
+EmvRes res = 0x55
+WaitCardOut
+EmvStart Begin
+Call EmvStart OK
+SessionId = vlt5twbb01cd1j55k3e5rwui
+fAtr
+Atr = 3B620000811F
+Call Atr OK
+sApdu
+Apdu: 00A404000E315041592E5359532E4444463031
+Apdu result: 6A82
+Call Apdu OK
+EmvRes res = 0x55
+WaitCardOut
+Close Reader...
+
+CloseReader() from SmartCard.dll ERROR!
+Application start
+Service ref = http://localhost:3885/EmvWebService.asmx
+Domain name = localhost
+
+Opening of USB reader: Athena ASEDrive IIIe USB 0
+
+OpenReader() ERROR!
+
+EmvStart Begin
+Call EmvStart OK
+SessionId = peoquqbdiuwb5fm1tfvubq55
+fAtr
+Atr = 3B620000811F
+Call Atr OK
+sApdu
+Apdu: 00A404000E315041592E5359532E4444463031
+Apdu result: 6A82
+Call Apdu OK
+EmvRes res = 0x55
+WaitCardOut
+EmvStart Begin
+Call EmvStart OK
+SessionId = peoquqbdiuwb5fm1tfvubq55
+fAtr
+Atr = 3B620000811F
+Call Atr OK
+sApdu
+Apdu: 00A404000E315041592E5359532E4444463031
+Apdu result: 6A82
+Call Apdu OK
+EmvRes res = 0x55
+WaitCardOut
+EmvStart Begin
+Call EmvStart OK
+SessionId = peoquqbdiuwb5fm1tfvubq55
+fAtr
+Atr = 3B620000811F
+Call Atr OK
+sApdu
+Apdu: 00A404000E315041592E5359532E4444463031
+Apdu result: 6A82
+Call Apdu OK
+EmvRes res = 0x55
+WaitCardOut
+Close Reader...
+
+CloseReader() from SmartCard.dll ERROR!
+Application start
+Service ref = http://localhost:3885/EmvWebService.asmx
+Domain name = localhost
+
+Opening of USB reader: Athena ASEDrive IIIe USB 0
+
+OpenReader() ERROR!
+
+EmvStart Begin
+Call EmvStart OK
+SessionId = 4dqfkb452cjid4enlxm23y45
+fAtr
+Atr = 3B620000811F
+Call Atr OK
+sApdu
+Apdu: 00A404000E315041592E5359532E4444463031
+Apdu result: 6A82
+Call Apdu OK
+EmvRes res = 0x55
+WaitCardOut
+Close Reader...
+
+CloseReader() from SmartCard.dll ERROR!
+Application start
+Service ref = http://localhost:3885/EmvWebService.asmx
+Domain name = localhost
+
+Opening of USB reader: Athena ASEDrive IIIe USB 0
+
+OpenReader() ERROR!
+
+EmvStart Begin
+Call EmvStart OK
+ERROR: System.IO.IOException: Не удается прочитать данные из транспортного соединения: Удаленный хост принудительно разорвал существующее подключение. ---> System.Net.Sockets.SocketException: Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   в System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   в System.Net.PooledStream.EndRead(IAsyncResult asyncResult)
+   в System.Net.Connection.ReadCallback(IAsyncResult asyncResult)
+WaitCardOut
+Close Reader...
+
+CloseReader() from SmartCard.dll ERROR!
+Application start
+Service ref = http://localhost:3885/EmvWebService.asmx
+Domain name = localhost
+
+Opening of USB reader: Athena ASEDrive IIIe USB 0
+
+OpenReader() ERROR!
+
+EmvStart Begin
+Call EmvStart OK
+ERROR: System.IO.IOException: Не удается прочитать данные из транспортного соединения: Удаленный хост принудительно разорвал существующее подключение. ---> System.Net.Sockets.SocketException: Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   в System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   в System.Net.PooledStream.EndRead(IAsyncResult asyncResult)
+   в System.Net.Connection.ReadCallback(IAsyncResult asyncResult)
+WaitCardOut
+Close Reader...
+
+CloseReader() from SmartCard.dll ERROR!
+Application start
+Service ref = http://localhost:3885/EmvWebService.asmx
+Domain name = localhost
+
+Opening of USB reader: Athena ASEDrive IIIe USB 0
+
+OpenReader() ERROR!
+
+EmvStart Begin
+Call EmvStart OK
+SessionId = haerabi33caqzjfpkn4w5355
+fAtr
+Atr = 3B620000811F
+Call Atr OK
+sApdu
+Apdu: 00A404000E315041592E5359532E4444463031
+Apdu result: 6A82
+Call Apdu OK
+EmvRes res = 0x55
+WaitCardOut
+Close Reader...
+
+CloseReader() from SmartCard.dll ERROR!
+Application start
+Service ref = http://emvwebservice.yalko.ru/emvwebservice.asmx
+Domain name = emvwebservice.yalko.ru
+
+GetReaderName() from SmartCard.dll ERROR!
+
+GetReaderName() from SmartCard.dll ERROR!
+
+Close Reader...
+
+CloseReader() from SmartCard.dll ERROR!
+Application start
+Service ref = http://emvwebservice.yalko.ru/emvwebservice.asmx
+Domain name = emvwebservice.yalko.ru
+
+GetReaderName() from SmartCard.dll ERROR!
+
+GetReaderName() from SmartCard.dll ERROR!
+
+Close Reader...
+
+CloseReader() from SmartCard.dll ERROR!
+Application start
+Service ref = http://emvwebservice.yalko.ru/emvwebservice.asmx
+Domain name = emvwebservice.yalko.ru
+
+GetReaderName() from SmartCard.dll ERROR!
+
+GetReaderName() from SmartCard.dll ERROR!
+
+Close Reader...
+Application start
+Service ref = http://emvwebservice.yalko.ru/emvwebservice.asmx
+Domain name = emvwebservice.yalko.ru
+
+GetReaderName() from SmartCard.dll ERROR!
+
+GetReaderName() from SmartCard.dll ERROR!
+
+Close Reader...
+Application start
+Service ref = http://emvwebservice.yalko.ru/emvwebservice.asmx
+Domain name = emvwebservice.yalko.ru
+
+GetReaderName() from SmartCard.dll ERROR!
+
+GetReaderName() from SmartCard.dll ERROR!
+
+Close Reader...
+Application startApplication startApplication startApplication startApplication start

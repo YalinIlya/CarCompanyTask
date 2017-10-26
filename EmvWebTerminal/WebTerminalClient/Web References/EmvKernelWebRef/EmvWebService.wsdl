@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="EmvRun">
+        <s:complexType />
+      </s:element>
+      <s:element name="EmvRunResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="EmvRunResult" type="s:unsignedByte" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SelLang">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="lang" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SelLangResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SelLangResult" type="s:unsignedByte" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckData">
+        <s:complexType />
+      </s:element>
+      <s:element name="CheckDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="EmvRunSoapIn">
+    <wsdl:part name="parameters" element="tns:EmvRun" />
+  </wsdl:message>
+  <wsdl:message name="EmvRunSoapOut">
+    <wsdl:part name="parameters" element="tns:EmvRunResponse" />
+  </wsdl:message>
+  <wsdl:message name="SelLangSoapIn">
+    <wsdl:part name="parameters" element="tns:SelLang" />
+  </wsdl:message>
+  <wsdl:message name="SelLangSoapOut">
+    <wsdl:part name="parameters" element="tns:SelLangResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckDataSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckData" />
+  </wsdl:message>
+  <wsdl:message name="CheckDataSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckDataResponse" />
+  </wsdl:message>
+  <wsdl:portType name="EmvWebServiceSoap">
+    <wsdl:operation name="EmvRun">
+      <wsdl:input message="tns:EmvRunSoapIn" />
+      <wsdl:output message="tns:EmvRunSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SelLang">
+      <wsdl:input message="tns:SelLangSoapIn" />
+      <wsdl:output message="tns:SelLangSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckData">
+      <wsdl:input message="tns:CheckDataSoapIn" />
+      <wsdl:output message="tns:CheckDataSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EmvWebServiceSoap" type="tns:EmvWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="EmvRun">
+      <soap:operation soapAction="http://tempuri.org/EmvRun" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelLang">
+      <soap:operation soapAction="http://tempuri.org/SelLang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckData">
+      <soap:operation soapAction="http://tempuri.org/CheckData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="EmvWebServiceSoap12" type="tns:EmvWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="EmvRun">
+      <soap12:operation soapAction="http://tempuri.org/EmvRun" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelLang">
+      <soap12:operation soapAction="http://tempuri.org/SelLang" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckData">
+      <soap12:operation soapAction="http://tempuri.org/CheckData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EmvWebService">
+    <wsdl:port name="EmvWebServiceSoap" binding="tns:EmvWebServiceSoap">
+      <soap:address location="http://localhost:3885/EmvWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="EmvWebServiceSoap12" binding="tns:EmvWebServiceSoap12">
+      <soap12:address location="http://localhost:3885/EmvWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

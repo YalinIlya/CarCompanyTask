@@ -1,0 +1,7 @@
+E:\Projects\EmvWebTerminal\WebTerminalServer\obj\Debug\WebTerminalServer.csprojResolveAssemblyReference.cache
+E:\Projects\EmvWebTerminal\WebTerminalServer\bin\WebTerminalServer.dll.config
+E:\Projects\EmvWebTerminal\WebTerminalServer\bin\WebTerminalServer.dll
+E:\Projects\EmvWebTerminal\WebTerminalServer\bin\WebTerminalServer.pdb
+E:\Projects\EmvWebTerminal\WebTerminalServer\bin\YalkoEmvClassLibrary.dll
+E:\Projects\EmvWebTerminal\WebTerminalServer\obj\Debug\WebTerminalServer.dll
+E:\Projects\EmvWebTerminal\WebTerminalServer\obj\Debug\WebTerminalServer.pdb
