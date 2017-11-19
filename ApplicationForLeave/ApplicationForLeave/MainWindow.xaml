@@ -1,0 +1,25 @@
+﻿<Window x:Class="ApplicationForLeave.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ApplicationForLeave"
+        mc:Ignorable="d"
+         Closing="Window_Closing"
+        Title="Заявления на отпуск" Height="350" Width="575">
+    <Grid>
+        <Button x:Name="BGenerateExcel" Content="Сгенерировать Excel файл с сотрудниками" HorizontalAlignment="Stretch" Margin="10,10,9.8,0" VerticalAlignment="Top"  Click="BGenerateExcel_Click" Height="39"/>
+
+        <Button x:Name="BSelectExcelFile" Content="Укажите Excel файл" Margin="10,61,0,0" VerticalAlignment="Top" Width="112" Height="23" Click="BSelectExcelFile_Click" HorizontalAlignment="Left"/>
+        <TextBox x:Name="TbxExcelFileName" Height="23" Margin="127,61,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <Button x:Name="BSelectWordFile" Content="Шаблон Word" HorizontalAlignment="Left" Margin="10,91,0,0" VerticalAlignment="Top" Width="112" Height="23" Click="BSelectWordFile_Click"/>
+        <TextBox x:Name="TbxWordFileName" Height="23" Margin="128,91,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <Button x:Name="BSelectPath" Content="Укажите папку" HorizontalAlignment="Left" Margin="10,119,0,0" VerticalAlignment="Top" Width="112" Height="23" Click="BSelectPath_Click"/>
+        <TextBox x:Name="TbxPdfFolderPath" Height="23" Margin="127,119,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" />
+
+        <Button x:Name="BGeneratePdf" Content="Сгенерировать заявления на отпуск в pdf формате" Margin="10,157,10,0" VerticalAlignment="Top" Height="39" Click="BGeneratePdf_Click"/>
+        <TextBox x:Name="TbxLog" Margin="10,232,9.8,9.8" TextWrapping="Wrap" Text="" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" VerticalScrollBarVisibility="Visible"/>
+        <Label Content="Обработано записей:" HorizontalAlignment="Left" Margin="10,201,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.458,0.516"/>
+        <Label x:Name="lblRecordsCount" Content="" HorizontalAlignment="Left" Margin="143,201,0,0" VerticalAlignment="Top" Width="Auto"/>
+    </Grid>
+</Window>
